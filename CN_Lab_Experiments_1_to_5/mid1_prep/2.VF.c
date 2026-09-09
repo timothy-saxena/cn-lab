@@ -18,7 +18,7 @@ int main() {
 
     int pos = 0;
     for (int i = 0; i < frame_count; i++) {
-        printf("Size of frame %d \n ", i + 1);
+        printf("Frame %d \n ", i + 1);
         for (int j = 0; j < frame_sizes[i] && pos < strlen(data); j++) {
             printf("%c", data[pos]);
             pos++;

@@ -51,5 +51,4 @@ int main() {
 
     receiver(data, n, checksum);
 
-    return 0;
 }

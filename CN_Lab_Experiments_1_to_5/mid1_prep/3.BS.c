@@ -26,8 +26,6 @@ int main() {
 
     stuffed[j] = '\0';
 
-    printf("Original data: %s\n", data);
-    printf("Stuffed data : %s\n", stuffed);
-
-    return 0;
+    printf("Original data: %s\n ", data);
+    printf("Stuffed data : %s\n ", stuffed);
 }

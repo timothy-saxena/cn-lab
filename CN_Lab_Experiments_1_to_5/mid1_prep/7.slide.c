@@ -40,11 +40,7 @@ int main() {
                 printf("Frame %d transmitted successfully\n", i);
             }
         }
-
         start = end;
     }
-
     printf("\nAll frames transmitted successfully.\n");
-
-    return 0;
 }

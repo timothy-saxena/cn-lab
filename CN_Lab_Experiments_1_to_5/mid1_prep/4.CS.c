@@ -28,6 +28,4 @@ int main() {
     strcpy(stuffed + j, "DLEETX");
 
     printf("After character stuffing: %s\n", stuffed);
-
-    return 0;
 }
